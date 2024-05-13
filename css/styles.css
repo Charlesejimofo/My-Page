@@ -25,6 +25,7 @@ body {
 
 .flex-container-footer {
     display: flex;
+    justify-content: space-evenly;
 }
 
 h1,
@@ -36,12 +37,14 @@ h3 {
     gap: 5px;
     display: flex;
     flex-direction: column;
-    width: 80%;
+    text-align: left;
+}
+
+ul {
+    text-align: left;
 }
 
 button {
-    display: flex;
-    justify-content: center;
     align-self: flex-end;
     background-color: solid black 2px;
     color: blue;
@@ -93,4 +96,11 @@ textarea:hover {
 textarea:user-invalid {
     border: 2px solid red;
     background-color: rgb(195, 101, 101);
+}
+
+@media screen (min-width:768px) and (max-width: 1080) {
+    .flex-container-main {
+        flex-direction: row;
+    }
+
 }
