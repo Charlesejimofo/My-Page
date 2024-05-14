@@ -8,6 +8,7 @@ body {
     text-align: center;
     width: 100vw;
     max-width: 100vw;
+    font-family: "Oswald", sans-serif;
 }
 
 .image-full {
@@ -26,6 +27,13 @@ body {
 .flex-container-footer {
     display: flex;
     justify-content: space-evenly;
+}
+
+img:hover {
+    border: solid black 2px;
+    outline: none;
+    background-color: burlywood;
+    padding: 5px;
 }
 
 h1,
@@ -98,9 +106,32 @@ textarea:user-invalid {
     background-color: rgb(195, 101, 101);
 }
 
-@media screen (min-width:768px) and (max-width: 1080) {
-    .flex-container-main {
-        flex-direction: row;
+@media (min-width:768px) {
+    * {
+        padding: 20px;
     }
 
+    .flex-container-main {
+        display: flex;
+
+    }
+
+    .image-full {
+        width: 800px;
+    }
+
+    .flex-container-personal-info {
+        /* align-self: flex-end; */
+        /* padding: 50px; */
+        align-content: center;
+        line-height: 500%;
+    }
+
+    .image-half {
+        border-radius: 50%;
+    }
+
+    .horizontal p {
+        padding: 50px;
+    }
 }

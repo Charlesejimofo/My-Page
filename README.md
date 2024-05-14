@@ -23,4 +23,5 @@ Using Media query add a Desktop view
 <LI></LI>
          
 ## Some screenshots of My Website
-![Screenshot](./img/screenshot1.png)
+![Screenshot](./img/screenshot1.png)width:50px, height:50px
+![Screenshot](./img/screenshot2.png) 
