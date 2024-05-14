@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 10px;
     box-sizing: border-box;
-    background-image: url(/img/backgroundimage.jpg);
+    background-image: url(../img/backgroundimage.jpg);
     display: flex;
     flex-direction: column;
     text-align: center;
